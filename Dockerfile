@@ -22,7 +22,7 @@ ENV TZ     "UTC"
 ENV NODE_RELEASE "13"
 
 ENTRYPOINT [ "dumb-init", "--", "docker-entrypoint.sh" ]
-CMD        [ "jshell" ]
+CMD        [ "node" ]
 
 # Hotfix for en_US.utf8 locale
 RUN set -ex \
