@@ -29,7 +29,7 @@ Start Node.js:
     # Pull latest image
     docker pull alvistack/node
     
-    # Run with built-in web server
+    # Run as detach
     docker run \
         -itd \
         --rm \
