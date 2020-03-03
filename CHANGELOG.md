@@ -4,6 +4,8 @@
 
 ### Major Changes
 
+  - Revamp with Molecule and `docker commit`
+
 ## 13.6.0-3alvistack1 - 2020-01-15
 
 ### Major Changes

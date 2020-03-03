@@ -11,14 +11,19 @@ Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`latest` (master/Dockerfile)](https://github.com/alvistack/docker-node/blob/master/Dockerfile)
-  - [`13` (13/Dockerfile)](https://github.com/alvistack/docker-node/blob/13/Dockerfile)
-  - [`12` (12/Dockerfile)](https://github.com/alvistack/docker-node/blob/12/Dockerfile)
-  - [`10` (10/Dockerfile)](https://github.com/alvistack/docker-node/blob/10/Dockerfile)
+  - [`13`, `latest`](https://github.com/alvistack/docker-node/blob/master/molecule/13/Dockerfile.j2)
+  - [`12`](https://github.com/alvistack/docker-node/blob/master/molecule/12/Dockerfile.j2)
+  - [`10`](https://github.com/alvistack/docker-node/blob/master/molecule/10/Dockerfile.j2)
 
 ## Overview
 
 This Docker container makes it easy to get an instance of Node.js up and running.
+
+Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
+
+  - Minimized `Dockerfile` for meta data definition
+  - Provision by Ansible and Molecule Docker driver in single layer
+  - Handle `ENTRYPOINT` with [tini](https://github.com/krallin/tini)
 
 ### Quick Start
 
