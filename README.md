@@ -44,7 +44,9 @@ Start Node.js:
 
 ## Versioning
 
-The `latest` tag matches the most recent version of this repository. Thus using `alvistack/node:latest` or `alvistack/node` will ensure you are running the most up to date version of this image.
+The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-node/releases) of this repository. Thus using `alvistack/node:latest` or `alvistack/node` will ensure you are running the most up to date stable version of this image.
+
+Other tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-node) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
