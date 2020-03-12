@@ -1,6 +1,6 @@
 # Docker Image Packaging for Node.js
 
-## 13.8.0-XalvistackY - TBC
+## 13.10.1-XalvistackY - TBC
 
 ### Major Changes
 
