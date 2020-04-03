@@ -1,6 +1,6 @@
 # Docker Image Packaging for Node.js
 
-[![Travis](https://img.shields.io/travis/alvistack/docker-node.svg)](https://travis-ci.org/alvistack/docker-node)
+[![Travis](https://img.shields.io/travis/com/alvistack/docker-node.svg)](https://travis-ci.com/alvistack/docker-node)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node.svg)](https://hub.docker.com/r/alvistack/node/)
@@ -50,7 +50,7 @@ The `latest` tag matches the most recent [GitHub Release](https://github.com/alv
 
 ### `alvistack/node:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-node) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-node) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
