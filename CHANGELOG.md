@@ -4,6 +4,10 @@
 
 ### Major Changes
 
+## 14.4.0-4alvistack1 - 2020-06-10
+
+### Major Changes
+
   - Add Node.js 14 support
   - Remove Node.js 13 support
   - Revamp `create`, `side_effect`, `verify` and `destroy` logic
