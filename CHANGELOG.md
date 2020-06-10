@@ -1,9 +1,17 @@
 # Docker Image Packaging for Node.js
 
-## 13.12.0-XalvistackY - TBC
+## 14.4.0-XalvistackY - TBC
 
 ### Major Changes
 
+## 14.4.0-4alvistack1 - 2020-06-10
+
+### Major Changes
+
+  - Add Node.js 14 support
+  - Remove Node.js 13 support
+  - Revamp `create`, `side_effect`, `verify` and `destroy` logic
+  - Replace `tini` with `catatonit`
   - Rename `post_tasks.yml` as `side_effect.yml`
 
 ## 13.8.0-4alvistack4 - 2020-03-05
