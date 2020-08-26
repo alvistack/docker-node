@@ -1,6 +1,10 @@
 # Docker Image Packaging for Node.js
 
-## 14.4.0-XalvistackY - TBC
+## 14.8.0-XalvistackY - TBC
+
+### Major Changes
+
+## 14.8.0-4alvistack2 - 2020-08-26
 
 ### Major Changes
 
