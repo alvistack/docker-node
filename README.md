@@ -11,7 +11,7 @@ Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`14`, `latest`](https://github.com/alvistack/docker-node/blob/master/molecule/14/Dockerfile.j2)
+  - [`15`, `latest`](https://github.com/alvistack/docker-node/blob/master/molecule/15/Dockerfile.j2)
   - [`12`](https://github.com/alvistack/docker-node/blob/master/molecule/12/Dockerfile.j2)
   - [`10`](https://github.com/alvistack/docker-node/blob/master/molecule/10/Dockerfile.j2)
 
