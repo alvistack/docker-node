@@ -39,3 +39,8 @@ RUN set -ex \
     && rm -f /lib/systemd/system/sockets.target.wants/*udev* \
     && rm -f /lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup.service \
     && rm -rf /var/lib/apt/lists/*
+
+ENV NODE_RELEASE "{{ node_release }}"
+
+ENTRYPOINT [ "catatonit", "-g", "--", "docker-entrypoint.sh" ]
+CMD        [ "node" ]
