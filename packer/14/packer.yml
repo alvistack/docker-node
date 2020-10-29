@@ -14,4 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-node_release: "15"
+- import_playbook: ./prepare.yml
+- import_playbook: ./converge.yml
+- import_playbook: ./side_effect.yml
+- import_playbook: ./verify.yml
