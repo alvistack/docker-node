@@ -1,9 +1,11 @@
 # Docker Image Packaging for Node.js
 
-## 15.1.0-XalvistackY - TBC
+## 15.2.0-XalvistackY - TBC
 
 ### Major Changes
 
+  - Add Node.js 15 support
+  - Remove Node.js 14 support
   - Revamp with Packer
 
 ## 14.13.1-4alvistack1 - 2020-10-14
