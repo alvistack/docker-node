@@ -11,9 +11,9 @@ Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`15`, `latest`](https://github.com/alvistack/docker-node/blob/master/packer/15/packer.json)
-  - [`14`](https://github.com/alvistack/docker-node/blob/master/packer/14/packer.json)
-  - [`12`](https://github.com/alvistack/docker-node/blob/master/packer/12/packer.json)
+  - [`15`, `latest`](https://github.com/alvistack/docker-node/blob/master/packer/docker-15/packer.json)
+  - [`14`](https://github.com/alvistack/docker-node/blob/master/packer/docker-14/packer.json)
+  - [`12`](https://github.com/alvistack/docker-node/blob/master/packer/docker-12/packer.json)
 
 ## Overview
 
