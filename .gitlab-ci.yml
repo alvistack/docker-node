@@ -72,8 +72,8 @@ docker-14:
     _PACKER_BUILDER_PROVIDER: "docker"
     _PACKER_BUILDER_VERSION: "14"
 
-docker-13:
+docker-12:
   <<: *job-packer
   variables:
     _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "13"
+    _PACKER_BUILDER_VERSION: "12"
