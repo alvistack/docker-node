@@ -4,6 +4,10 @@
 
 ### Major Changes
 
+## 15.3.0-4alvistack2 - 2020-12-09
+
+### Major Changes
+
   - Migrate from Travis CI to GitLab CI
   - Add Node.js 15 support
   - Remove Node.js 14 support
