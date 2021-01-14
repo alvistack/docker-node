@@ -1,9 +1,9 @@
 # Docker Image Packaging for Node.js
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-node/master)](https://gitlab.com/alvistack/docker-node/-/pipelines)
+[![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-node/master)](https://gitlab.com/alvistack/docker-node/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node.svg)](https://hub.docker.com/r/alvistack/node/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-15.svg)](https://hub.docker.com/r/alvistack/node-15)
 
 Node.js is a software platform for scalable server-side and networking applications.
 
@@ -11,9 +11,12 @@ Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`15`, `latest`](https://github.com/alvistack/docker-node/blob/master/packer/docker-15/packer.json)
-  - [`14`](https://github.com/alvistack/docker-node/blob/master/packer/docker-14/packer.json)
-  - [`12`](https://github.com/alvistack/docker-node/blob/master/packer/docker-12/packer.json)
+  - [`alvistack/node-15`](https://hub.docker.com/r/alvistack/node-15)
+      - [`packer/docker-15/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-15/packer.json)
+  - [`alvistack/node-14`](https://hub.docker.com/r/alvistack/node-14)
+      - [`packer/docker-14/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-14/packer.json)
+  - [`alvistack/node-12`](https://hub.docker.com/r/alvistack/node-12)
+      - [`packer/docker-12/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-12/packer.json)
 
 ## Overview
 
@@ -43,13 +46,13 @@ Start Node.js:
 
 ## Versioning
 
-### `alvistack/node:latest`
+### `YYYYMMDD.Y.Z`
 
-The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-node/releases) of this repository. Thus using `alvistack/node:latest` or `alvistack/node` will ensure you are running the most up to date stable version of this image.
+Release tags could be find from [GitHub Release](https://github.com/alvistack/docker-node/releases) of this repository. Thus using these tags will ensure you are running the most up to date stable version of this image.
 
-### `alvistack/node:<version>`
+### `YYYYMMDD.0.0`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-node) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+Version tags ended with `.0.0` are rolling release rebuild by [GitLab pipeline](https://gitlab.com/alvistack/docker-node/-/pipelines) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
