@@ -34,14 +34,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start Node.js:
 
     # Pull latest image
-    docker pull alvistack/node
+    docker pull alvistack/node-15
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name node \
-        alvistack/node \
+        alvistack/node-15 \
         node --version
 
 ## Versioning
