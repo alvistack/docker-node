@@ -4,6 +4,8 @@
 
 ### Major Changes
 
+  - Add Node.js 16 support
+
 ## 20210313.1.1 - 2021-03-13
 
 ### Major Changes

@@ -106,30 +106,30 @@ default:
   before_script:
     - *script-git-submodule
 
-build:docker-15:
+build:docker-16:
   <<: *job-packer-build
   stage: build
   cache:
-    key: "$CI_PIPELINE_ID-docker-15"
+    key: "$CI_PIPELINE_ID-docker-16"
     paths:
       - packer/*/output-docker
   variables:
     _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "15"
+    _PACKER_BUILDER_VERSION: "16"
 
-deploy:docker-15:
+deploy:docker-16:
   <<: *job-docker-push
   stage: deploy
   cache:
-    key: "$CI_PIPELINE_ID-docker-15"
+    key: "$CI_PIPELINE_ID-docker-16"
     paths:
       - packer/*/output-docker
     policy: pull
   variables:
     _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "15"
+    _PACKER_BUILDER_VERSION: "16"
   needs:
-    - build:docker-15
+    - build:docker-16
 
 build:docker-14:
   <<: *job-packer-build
