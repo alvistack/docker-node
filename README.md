@@ -4,7 +4,9 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-16.svg)](https://hub.docker.com/r/alvistack/node-16)
+
 Node.js is a software platform for scalable server-side and networking applications.
+
 Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective Packer Template Links
@@ -19,6 +21,7 @@ Learn more about Node.js: <https://nodejs.org/>
 ## Overview
 
 This Docker container makes it easy to get an instance of Node.js up and running.
+
 Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
 
   - Packaging by Packer Docker builder and Ansible provisioner in single layer
@@ -27,16 +30,19 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 ### Quick Start
 
 For the `VOLUME` directory that is used to store the repository data (amongst other things) we recommend mounting a host directory as a [data volume](https://docs.docker.com/engine/tutorials/dockervolumes/#/data-volumes), or via a named volume if using a docker version \>= 1.9.
+
 Start Node.js:
-\# Pull latest image
-docker pull alvistack/node-16
-\# Run as detach
-docker run   
-\-itd   
-\--rm   
-\--name node   
-alvistack/node-16   
-ode --version
+
+    # Pull latest image
+    docker pull alvistack/node-16
+    
+    # Run as detach
+    docker run \
+        -itd \
+        --rm \
+        --name node \
+        alvistack/node-16 \
+        node --version
 
 ## Versioning
 
