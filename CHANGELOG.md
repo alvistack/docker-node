@@ -4,6 +4,8 @@
 
 ### Major Changes
 
+  - Add Node.js 17 support
+  - Remove Node.js 16 support
   - Install dependencies with package manager
   - Upgrade minimal Ansible community package support to 4.5.0
 
