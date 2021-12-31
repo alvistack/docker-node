@@ -5,7 +5,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-node/master)](https://gitlab.com/alvistack/docker-node/-/pipelines)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/tags)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-14.svg)](https://hub.docker.com/r/alvistack/node-14)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-17.svg)](https://hub.docker.com/r/alvistack/node-17)
 
 Node.js is a software platform for scalable server-side and networking applications.
 
@@ -15,10 +15,10 @@ Learn more about Node.js: <https://nodejs.org/>
 
   - [`alvistack/node-17`](https://hub.docker.com/r/alvistack/node-17)
       - [`packer/docker-17/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-17/packer.json)
+  - [`alvistack/node-16`](https://hub.docker.com/r/alvistack/node-16)
+      - [`packer/docker-16/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-16/packer.json)
   - [`alvistack/node-14`](https://hub.docker.com/r/alvistack/node-14)
       - [`packer/docker-14/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-14/packer.json)
-  - [`alvistack/node-12`](https://hub.docker.com/r/alvistack/node-12)
-      - [`packer/docker-12/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-12/packer.json)
 
 ## Overview
 
@@ -36,14 +36,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start Node.js:
 
     # Pull latest image
-    docker pull alvistack/node-14
+    docker pull alvistack/node-17
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name node \
-        alvistack/node-14 \
+        alvistack/node-17 \
         node --version
 
 ## Versioning

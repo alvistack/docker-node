@@ -4,6 +4,9 @@
 
 ### Major Changes
 
+  - Support Node.js 16
+  - Remove Node.js 12 support
+
 ## 20211231.1.3 - 2021-12-31
 
 ### Major Changes
