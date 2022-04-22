@@ -5,7 +5,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-node/master)](https://gitlab.com/alvistack/docker-node/-/pipelines)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/tags)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-node.svg)](https://github.com/alvistack/docker-node/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-17.svg)](https://hub.docker.com/r/alvistack/node-17)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/node-18.svg)](https://hub.docker.com/r/alvistack/node-18)
 
 Node.js is a software platform for scalable server-side and networking applications.
 
@@ -13,8 +13,8 @@ Learn more about Node.js: <https://nodejs.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`alvistack/node-17`](https://hub.docker.com/r/alvistack/node-17)
-      - [`packer/docker-17/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-17/packer.json)
+  - [`alvistack/node-18`](https://hub.docker.com/r/alvistack/node-18)
+      - [`packer/docker-18/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-18/packer.json)
   - [`alvistack/node-16`](https://hub.docker.com/r/alvistack/node-16)
       - [`packer/docker-16/packer.json`](https://github.com/alvistack/docker-node/blob/master/packer/docker-16/packer.json)
   - [`alvistack/node-14`](https://hub.docker.com/r/alvistack/node-14)
@@ -36,14 +36,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start Node.js:
 
     # Pull latest image
-    docker pull alvistack/node-17
+    docker pull alvistack/node-18
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name node \
-        alvistack/node-17 \
+        alvistack/node-18 \
         node --version
 
 ## Versioning
