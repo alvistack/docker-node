@@ -18,9 +18,10 @@ namespace: alvistack
 name: docker-node
 description: Docker Image Packaging for Node.js
 
-version: VERSION
+version: 0.0.0
 readme: README.md
-license: Apache-2.0
+license:
+  - Apache-2.0
 
 repository: https://github.com/alvistack/docker-node
 documentation: https://github.com/alvistack/docker-node
