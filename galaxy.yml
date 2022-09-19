@@ -15,7 +15,7 @@
 # limitations under the License.
 
 namespace: alvistack
-name: docker-node
+name: node
 description: Docker Image Packaging for Node.js
 
 version: 0.0.0
